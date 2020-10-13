@@ -1,6 +1,8 @@
 @echo off
 setlocal EnableDelayedExpansion
 
+git pull
+
 :: First run
 if not exist .\.settings (
     echo First run detected!
